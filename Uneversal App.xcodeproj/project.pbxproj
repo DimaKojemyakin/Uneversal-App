@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		812D1E3E2B2DD3B500E024B8 /* LoveISView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D1E3D2B2DD3B500E024B8 /* LoveISView.swift */; };
+		81A6232F2B33794A0082CD0C /* ChangeLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6232E2B33794A0082CD0C /* ChangeLesson.swift */; };
 		81B6C1C82B2CD30D005F3B07 /* Uneversal_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1C72B2CD30D005F3B07 /* Uneversal_AppApp.swift */; };
 		81B6C1CC2B2CD30F005F3B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B6C1CB2B2CD30F005F3B07 /* Assets.xcassets */; };
 		81B6C1CF2B2CD30F005F3B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B6C1CE2B2CD30F005F3B07 /* Preview Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		812D1E3D2B2DD3B500E024B8 /* LoveISView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveISView.swift; sourceTree = "<group>"; };
+		81A6232E2B33794A0082CD0C /* ChangeLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLesson.swift; sourceTree = "<group>"; };
 		81B6C1C42B2CD30D005F3B07 /* Uneversal App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uneversal App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B6C1C72B2CD30D005F3B07 /* Uneversal_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uneversal_AppApp.swift; sourceTree = "<group>"; };
 		81B6C1CB2B2CD30F005F3B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				81B6C1F32B2CD324005F3B07 /* MainView.swift */,
+				81A6232E2B33794A0082CD0C /* ChangeLesson.swift */,
 				812D1E3D2B2DD3B500E024B8 /* LoveISView.swift */,
 				81F895CF2B2CDB9800E9946F /* ImagePicker.swift */,
 				81B6C1F22B2CD324005F3B07 /* RegisterView.swift */,
@@ -312,6 +315,7 @@
 				81B6C2002B2CD348005F3B07 /* DataManager.swift in Sources */,
 				812D1E3E2B2DD3B500E024B8 /* LoveISView.swift in Sources */,
 				81F895D02B2CDB9800E9946F /* ImagePicker.swift in Sources */,
+				81A6232F2B33794A0082CD0C /* ChangeLesson.swift in Sources */,
 				81B6C1F62B2CD324005F3B07 /* RegisterView.swift in Sources */,
 				81B6C2012B2CD348005F3B07 /* UserDate.swift in Sources */,
 				81B6C1F82B2CD324005F3B07 /* StartView.swift in Sources */,
