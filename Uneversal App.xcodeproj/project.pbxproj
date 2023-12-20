@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		812D1E3E2B2DD3B500E024B8 /* LoveISView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812D1E3D2B2DD3B500E024B8 /* LoveISView.swift */; };
+		81B6C1C82B2CD30D005F3B07 /* Uneversal_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1C72B2CD30D005F3B07 /* Uneversal_AppApp.swift */; };
+		81B6C1CC2B2CD30F005F3B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B6C1CB2B2CD30F005F3B07 /* Assets.xcassets */; };
+		81B6C1CF2B2CD30F005F3B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B6C1CE2B2CD30F005F3B07 /* Preview Assets.xcassets */; };
+		81B6C1D92B2CD30F005F3B07 /* Uneversal_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1D82B2CD30F005F3B07 /* Uneversal_AppTests.swift */; };
+		81B6C1E32B2CD30F005F3B07 /* Uneversal_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1E22B2CD30F005F3B07 /* Uneversal_AppUITests.swift */; };
+		81B6C1E52B2CD30F005F3B07 /* Uneversal_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1E42B2CD30F005F3B07 /* Uneversal_AppUITestsLaunchTests.swift */; };
+		81B6C1F52B2CD324005F3B07 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1F12B2CD324005F3B07 /* SettingsView.swift */; };
+		81B6C1F62B2CD324005F3B07 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1F22B2CD324005F3B07 /* RegisterView.swift */; };
+		81B6C1F72B2CD324005F3B07 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1F32B2CD324005F3B07 /* MainView.swift */; };
+		81B6C1F82B2CD324005F3B07 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1F42B2CD324005F3B07 /* StartView.swift */; };
+		81B6C2002B2CD348005F3B07 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1FA2B2CD348005F3B07 /* DataManager.swift */; };
+		81B6C2012B2CD348005F3B07 /* UserDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1FB2B2CD348005F3B07 /* UserDate.swift */; };
+		81B6C2022B2CD348005F3B07 /* DataSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6C1FC2B2CD348005F3B07 /* DataSettings.swift */; };
+		81B6C2092B2CD3AE005F3B07 /* AlertKit in Frameworks */ = {isa = PBXBuildFile; productRef = 81B6C2082B2CD3AE005F3B07 /* AlertKit */; };
+		81F895D02B2CDB9800E9946F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F895CF2B2CDB9800E9946F /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B6C1D52B2CD30F005F3B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B6C1BC2B2CD30D005F3B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B6C1C32B2CD30D005F3B07;
+			remoteInfo = "Uneversal App";
+		};
+		81B6C1DF2B2CD30F005F3B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B6C1BC2B2CD30D005F3B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B6C1C32B2CD30D005F3B07;
+			remoteInfo = "Uneversal App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		812D1E3D2B2DD3B500E024B8 /* LoveISView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveISView.swift; sourceTree = "<group>"; };
+		81B6C1C42B2CD30D005F3B07 /* Uneversal App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uneversal App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B6C1C72B2CD30D005F3B07 /* Uneversal_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uneversal_AppApp.swift; sourceTree = "<group>"; };
+		81B6C1CB2B2CD30F005F3B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B6C1CE2B2CD30F005F3B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81B6C1D42B2CD30F005F3B07 /* Uneversal AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uneversal AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B6C1D82B2CD30F005F3B07 /* Uneversal_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uneversal_AppTests.swift; sourceTree = "<group>"; };
+		81B6C1DE2B2CD30F005F3B07 /* Uneversal AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uneversal AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B6C1E22B2CD30F005F3B07 /* Uneversal_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uneversal_AppUITests.swift; sourceTree = "<group>"; };
+		81B6C1E42B2CD30F005F3B07 /* Uneversal_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uneversal_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81B6C1F12B2CD324005F3B07 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		81B6C1F22B2CD324005F3B07 /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		81B6C1F32B2CD324005F3B07 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		81B6C1F42B2CD324005F3B07 /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		81B6C1FA2B2CD348005F3B07 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		81B6C1FB2B2CD348005F3B07 /* UserDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDate.swift; sourceTree = "<group>"; };
+		81B6C1FC2B2CD348005F3B07 /* DataSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSettings.swift; sourceTree = "<group>"; };
+		81B6C20A2B2CD3EE005F3B07 /* Uneversal-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Uneversal-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		81F895CF2B2CDB9800E9946F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B6C1C12B2CD30D005F3B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B6C2092B2CD3AE005F3B07 /* AlertKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6C1D12B2CD30F005F3B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6C1DB2B2CD30F005F3B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B6C1BB2B2CD30D005F3B07 = {
+			isa = PBXGroup;
+			children = (
+				81B6C1C62B2CD30D005F3B07 /* Uneversal App */,
+				81B6C1D72B2CD30F005F3B07 /* Uneversal AppTests */,
+				81B6C1E12B2CD30F005F3B07 /* Uneversal AppUITests */,
+				81B6C1C52B2CD30D005F3B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B6C1C52B2CD30D005F3B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C1C42B2CD30D005F3B07 /* Uneversal App.app */,
+				81B6C1D42B2CD30F005F3B07 /* Uneversal AppTests.xctest */,
+				81B6C1DE2B2CD30F005F3B07 /* Uneversal AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B6C1C62B2CD30D005F3B07 /* Uneversal App */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C20A2B2CD3EE005F3B07 /* Uneversal-App-Info.plist */,
+				81B6C1C72B2CD30D005F3B07 /* Uneversal_AppApp.swift */,
+				81B6C2062B2CD37B005F3B07 /* View */,
+				81B6C1F92B2CD348005F3B07 /* Data */,
+				81B6C1CB2B2CD30F005F3B07 /* Assets.xcassets */,
+				81B6C1CD2B2CD30F005F3B07 /* Preview Content */,
+			);
+			path = "Uneversal App";
+			sourceTree = "<group>";
+		};
+		81B6C1CD2B2CD30F005F3B07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C1CE2B2CD30F005F3B07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81B6C1D72B2CD30F005F3B07 /* Uneversal AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C1D82B2CD30F005F3B07 /* Uneversal_AppTests.swift */,
+			);
+			path = "Uneversal AppTests";
+			sourceTree = "<group>";
+		};
+		81B6C1E12B2CD30F005F3B07 /* Uneversal AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C1E22B2CD30F005F3B07 /* Uneversal_AppUITests.swift */,
+				81B6C1E42B2CD30F005F3B07 /* Uneversal_AppUITestsLaunchTests.swift */,
+			);
+			path = "Uneversal AppUITests";
+			sourceTree = "<group>";
+		};
+		81B6C1F92B2CD348005F3B07 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C1FA2B2CD348005F3B07 /* DataManager.swift */,
+				81B6C1FB2B2CD348005F3B07 /* UserDate.swift */,
+				81B6C1FC2B2CD348005F3B07 /* DataSettings.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		81B6C2062B2CD37B005F3B07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81B6C1F32B2CD324005F3B07 /* MainView.swift */,
+				812D1E3D2B2DD3B500E024B8 /* LoveISView.swift */,
+				81F895CF2B2CDB9800E9946F /* ImagePicker.swift */,
+				81B6C1F22B2CD324005F3B07 /* RegisterView.swift */,
+				81B6C1F12B2CD324005F3B07 /* SettingsView.swift */,
+				81B6C1F42B2CD324005F3B07 /* StartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B6C1C32B2CD30D005F3B07 /* Uneversal App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B6C1E82B2CD30F005F3B07 /* Build configuration list for PBXNativeTarget "Uneversal App" */;
+			buildPhases = (
+				81B6C1C02B2CD30D005F3B07 /* Sources */,
+				81B6C1C12B2CD30D005F3B07 /* Frameworks */,
+				81B6C1C22B2CD30D005F3B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uneversal App";
+			packageProductDependencies = (
+				81B6C2082B2CD3AE005F3B07 /* AlertKit */,
+			);
+			productName = "Uneversal App";
+			productReference = 81B6C1C42B2CD30D005F3B07 /* Uneversal App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B6C1D32B2CD30F005F3B07 /* Uneversal AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B6C1EB2B2CD30F005F3B07 /* Build configuration list for PBXNativeTarget "Uneversal AppTests" */;
+			buildPhases = (
+				81B6C1D02B2CD30F005F3B07 /* Sources */,
+				81B6C1D12B2CD30F005F3B07 /* Frameworks */,
+				81B6C1D22B2CD30F005F3B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B6C1D62B2CD30F005F3B07 /* PBXTargetDependency */,
+			);
+			name = "Uneversal AppTests";
+			productName = "Uneversal AppTests";
+			productReference = 81B6C1D42B2CD30F005F3B07 /* Uneversal AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B6C1DD2B2CD30F005F3B07 /* Uneversal AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B6C1EE2B2CD30F005F3B07 /* Build configuration list for PBXNativeTarget "Uneversal AppUITests" */;
+			buildPhases = (
+				81B6C1DA2B2CD30F005F3B07 /* Sources */,
+				81B6C1DB2B2CD30F005F3B07 /* Frameworks */,
+				81B6C1DC2B2CD30F005F3B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B6C1E02B2CD30F005F3B07 /* PBXTargetDependency */,
+			);
+			name = "Uneversal AppUITests";
+			productName = "Uneversal AppUITests";
+			productReference = 81B6C1DE2B2CD30F005F3B07 /* Uneversal AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B6C1BC2B2CD30D005F3B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					81B6C1C32B2CD30D005F3B07 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					81B6C1D32B2CD30F005F3B07 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 81B6C1C32B2CD30D005F3B07;
+					};
+					81B6C1DD2B2CD30F005F3B07 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 81B6C1C32B2CD30D005F3B07;
+					};
+				};
+			};
+			buildConfigurationList = 81B6C1BF2B2CD30D005F3B07 /* Build configuration list for PBXProject "Uneversal App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B6C1BB2B2CD30D005F3B07;
+			packageReferences = (
+				81B6C2072B2CD3AE005F3B07 /* XCRemoteSwiftPackageReference "AlertKit" */,
+			);
+			productRefGroup = 81B6C1C52B2CD30D005F3B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B6C1C32B2CD30D005F3B07 /* Uneversal App */,
+				81B6C1D32B2CD30F005F3B07 /* Uneversal AppTests */,
+				81B6C1DD2B2CD30F005F3B07 /* Uneversal AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B6C1C22B2CD30D005F3B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B6C1CF2B2CD30F005F3B07 /* Preview Assets.xcassets in Resources */,
+				81B6C1CC2B2CD30F005F3B07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6C1D22B2CD30F005F3B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6C1DC2B2CD30F005F3B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B6C1C02B2CD30D005F3B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B6C2022B2CD348005F3B07 /* DataSettings.swift in Sources */,
+				81B6C1F52B2CD324005F3B07 /* SettingsView.swift in Sources */,
+				81B6C2002B2CD348005F3B07 /* DataManager.swift in Sources */,
+				812D1E3E2B2DD3B500E024B8 /* LoveISView.swift in Sources */,
+				81F895D02B2CDB9800E9946F /* ImagePicker.swift in Sources */,
+				81B6C1F62B2CD324005F3B07 /* RegisterView.swift in Sources */,
+				81B6C2012B2CD348005F3B07 /* UserDate.swift in Sources */,
+				81B6C1F82B2CD324005F3B07 /* StartView.swift in Sources */,
+				81B6C1F72B2CD324005F3B07 /* MainView.swift in Sources */,
+				81B6C1C82B2CD30D005F3B07 /* Uneversal_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6C1D02B2CD30F005F3B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B6C1D92B2CD30F005F3B07 /* Uneversal_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B6C1DA2B2CD30F005F3B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B6C1E52B2CD30F005F3B07 /* Uneversal_AppUITestsLaunchTests.swift in Sources */,
+				81B6C1E32B2CD30F005F3B07 /* Uneversal_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B6C1D62B2CD30F005F3B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B6C1C32B2CD30D005F3B07 /* Uneversal App */;
+			targetProxy = 81B6C1D52B2CD30F005F3B07 /* PBXContainerItemProxy */;
+		};
+		81B6C1E02B2CD30F005F3B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B6C1C32B2CD30D005F3B07 /* Uneversal App */;
+			targetProxy = 81B6C1DF2B2CD30F005F3B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81B6C1E62B2CD30F005F3B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B6C1E72B2CD30F005F3B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B6C1E92B2CD30F005F3B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uneversal App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Uneversal-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kozhemyakin.Uneversal-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B6C1EA2B2CD30F005F3B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uneversal App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Uneversal-App-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kozhemyakin.Uneversal-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81B6C1EC2B2CD30F005F3B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kozhemyakin.Uneversal-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uneversal App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Uneversal App";
+			};
+			name = Debug;
+		};
+		81B6C1ED2B2CD30F005F3B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kozhemyakin.Uneversal-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uneversal App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Uneversal App";
+			};
+			name = Release;
+		};
+		81B6C1EF2B2CD30F005F3B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kozhemyakin.Uneversal-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uneversal App";
+			};
+			name = Debug;
+		};
+		81B6C1F02B2CD30F005F3B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kozhemyakin.Uneversal-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Uneversal App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B6C1BF2B2CD30D005F3B07 /* Build configuration list for PBXProject "Uneversal App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B6C1E62B2CD30F005F3B07 /* Debug */,
+				81B6C1E72B2CD30F005F3B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B6C1E82B2CD30F005F3B07 /* Build configuration list for PBXNativeTarget "Uneversal App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B6C1E92B2CD30F005F3B07 /* Debug */,
+				81B6C1EA2B2CD30F005F3B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B6C1EB2B2CD30F005F3B07 /* Build configuration list for PBXNativeTarget "Uneversal AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B6C1EC2B2CD30F005F3B07 /* Debug */,
+				81B6C1ED2B2CD30F005F3B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B6C1EE2B2CD30F005F3B07 /* Build configuration list for PBXNativeTarget "Uneversal AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B6C1EF2B2CD30F005F3B07 /* Debug */,
+				81B6C1F02B2CD30F005F3B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81B6C2072B2CD3AE005F3B07 /* XCRemoteSwiftPackageReference "AlertKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/AlertKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81B6C2082B2CD3AE005F3B07 /* AlertKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81B6C2072B2CD3AE005F3B07 /* XCRemoteSwiftPackageReference "AlertKit" */;
+			productName = AlertKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 81B6C1BC2B2CD30D005F3B07 /* Project object */;
+}
