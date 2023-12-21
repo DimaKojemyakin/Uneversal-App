@@ -10,11 +10,12 @@ import SwiftUI
 @main
 struct Uneversal_AppApp: App {
     
+    @Environment(\.scenePhase) private var scenePhase
     @StateObject var userManager = UserManager()
     @StateObject var dataSettings = DataSettings()
     @StateObject var dataManager = DataManager()
     
-
+    
     var body: some Scene {
         WindowGroup {
             StartView()
@@ -27,6 +28,12 @@ struct Uneversal_AppApp: App {
                         userManager.user = loadedUser
                     }
                 }
+        }
+        .onChange(of: scenePhase) { phase in
+            if phase == .background {
+                // Сохранение данных в UserDefaults
+                dataManager.saveData(user: userManager.user, key: "user")
+            }
         }
     }
 }

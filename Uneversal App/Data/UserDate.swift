@@ -16,14 +16,14 @@ class UserManager: ObservableObject {
 }
 
 struct lessons: Codable, Hashable {
-    let nameTeacher: String
-    let nameLesson: String
-    let classRoom: String
+    var nameTeacher: String
+    var nameLesson: String
+    var classRoom: String
 }
 
 struct LessonWithIndex: Codable, Hashable {
-    let index: Int
-    let lesson: lessons
+    var index: Int
+    var lesson: lessons
 }
 
 struct User: Codable {
@@ -32,11 +32,6 @@ struct User: Codable {
     var isRegistred = false
     
     var lessonsM: [LessonWithIndex] = [
-        LessonWithIndex(index: 0, lesson: lessons(nameTeacher: "Екатерина Дмитриевна", nameLesson: "Разговоры о важном", classRoom: "120")),
-        LessonWithIndex(index: 1, lesson: lessons(nameTeacher: "Владимир Юрьевичь", nameLesson: "Технология", classRoom: "120")),
-        LessonWithIndex(index: 2, lesson: lessons(nameTeacher: "Владимир Юрьевичь", nameLesson: "Технология", classRoom: "120")),
-        LessonWithIndex(index: 3, lesson: lessons(nameTeacher: "Владимир Юрьевичь", nameLesson: "Технология", classRoom: "120")),
-        LessonWithIndex(index: 4, lesson: lessons(nameTeacher: "Владимир Юрьевичь", nameLesson: "Технология", classRoom: "120")),
-        LessonWithIndex(index: 5, lesson: lessons(nameTeacher: "Владимир Юрьевичь", nameLesson: "Технология", classRoom: "120")),
+        
     ]
 }

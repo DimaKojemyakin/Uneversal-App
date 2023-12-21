@@ -5,4 +5,35 @@
   Created by Дима Кожемякин on 21.12.2023.
   
 */
-"" = ""; 
+"Monday" = "Monday";
+"Lessons" = "Lessons";
+"Lesson name" = "Lesson name";
+"Teacher name" = "Teacher name";
+"Number class" = "Number class";
+"Change lessons" = "Change lessons";
+"Done" = "Done";
+"Error" = "Error";
+"Your data is not filled in" = "Your data is not filled in";
+"Add new lesson" = "Add new lesson";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+"Login" = "Login";
+"Password" = "Password";
+"Please enter your given" = "Please enter your given";
+"We need to unlock your data." = "We need to unlock your data.";
+"Authentication failed" = "Authentication failed";
+"Biometric authentication not available" = "Biometric authentication not available";
+"Enter your login" = "Enter your login";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";

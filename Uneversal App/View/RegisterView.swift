@@ -19,25 +19,25 @@ struct RegisterView: View {
             VStack {
                 Spacer()
                 HStack {
-                    Text("Login")
+                    Text(NSLocalizedString("Login", comment: ""))
                     Spacer()
                 }
                 TextFields(userName: $userManager.user.userName)
                 HStack {
-                    Text("Password")
+                    Text(NSLocalizedString("Password", comment: ""))
                     Spacer()
                 }
                 TextFields(userName: $userManager.user.userPassword)
                 Button(action: {
                     authenticate()
                 }) {
-                    Text("Done").foregroundColor(.white)
+                    Text(NSLocalizedString("Done", comment: "")).foregroundColor(.white)
                 }
                 .buttonStyle(BorderedButtonStyle())
                 .background(Color.blue)
                 .cornerRadius(10)
                 .alert(isPresented: $isActiveAlert) {
-                    Alert(title: Text("Error"), message: Text("Please enter your given"))
+                    Alert(title: Text(NSLocalizedString("Error", comment: "")), message: Text(NSLocalizedString("Please enter your given", comment: "")))
                 }
                 Spacer()
             }
@@ -53,7 +53,7 @@ struct RegisterView: View {
         // check whether biometric authentication is possible
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
             // it's possible, so go ahead and use it
-            let reason = "We need to unlock your data."
+            let reason = NSLocalizedString("We need to unlock your data.", comment: "")
 
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in
                 // authentication has now completed
@@ -64,11 +64,11 @@ struct RegisterView: View {
                     }
                 } else {
                     // there was a problem
-                    print("Authentication failed")
+                    print(NSLocalizedString("Authentication failed", comment: ""))
                 }
             }
         } else {
-            print("Biometric authentication not available")
+            print(NSLocalizedString("Biometric authentication not available", comment: ""))
         }
     }
 
@@ -88,7 +88,7 @@ struct TextFields: View {
 
     var body: some View {
         VStack {
-            TextField("Enter your login", text: $userName).textFieldStyle(RoundedBorderTextFieldStyle())
+            TextField(NSLocalizedString("Enter your login", comment: ""), text: $userName).textFieldStyle(RoundedBorderTextFieldStyle())
         }
     }
 }

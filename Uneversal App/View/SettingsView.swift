@@ -13,7 +13,8 @@ struct Settings: View {
     @EnvironmentObject var dataSettings: DataSettings
     @EnvironmentObject var dataManager: DataManager
     @State private var isActiveAlert = false
-    
+    @State private var isActiveDevelopPassword = false
+    @State private var password = ""
     
     var body: some View {
         NavigationView {
@@ -21,6 +22,13 @@ struct Settings: View {
                 List {
                     Section(header: Text("Develop")) {
                         Toggle("Development Mode", isOn: $dataSettings.settingsUser.developMod)
+                            .onChange(of: dataSettings.settingsUser.developMod) { newValue in
+                                if newValue {
+                                    isActiveDevelopPassword = true
+                                } else {
+                                    isActiveDevelopPassword = false
+                                }
+                            }
                     }
                     Section() {
                         Button(action: {
@@ -42,9 +50,23 @@ struct Settings: View {
                             
                             Button("Cancel", role: .cancel) { }
                         }
-                       
+                        
                     }
                 }
+            }
+            .sheet(isPresented: $isActiveDevelopPassword) {
+                TextField("password", text: $password)
+                Button("Done", action:
+                        { if password == "223313" {
+                            isActiveDevelopPassword.toggle()
+                        } else {
+                            isActiveDevelopPassword.toggle()
+                            dataSettings.settingsUser.developMod.toggle()
+                        }
+                } )
+                
+                
+                .interactiveDismissDisabled()
             }
             .navigationTitle("Settings")
         }
@@ -57,6 +79,7 @@ struct Settings: View {
         userManager.user.userPassword = ""
     }
 }
+
 
 #Preview {
     Settings().environmentObject(UserManager()).environmentObject(DataManager()).environmentObject(DataSettings())

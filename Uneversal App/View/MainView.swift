@@ -13,7 +13,7 @@ struct MainView: View {
         NavigationView {
             VStack {
                 List {
-                    Section(header: Text("Понедельник")) {
+                    Section(header: Text(NSLocalizedString("Monday",  comment: ""))) {
                         ForEach(userManager.user.lessonsM, id: \.self.index) { lesson in
                             HStack {
                                 Text("\(lesson.index + 1).")
@@ -47,7 +47,7 @@ struct MainView: View {
                 }
             }
             )
-            .navigationTitle("Lessons")
+            .navigationTitle(NSLocalizedString("Lessons", comment: ""))
         }
     }
 }

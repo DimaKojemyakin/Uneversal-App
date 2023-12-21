@@ -5,3 +5,36 @@
   Created by Дима Кожемякин on 21.12.2023.
   
 */
+"Monday" = "Понедельник";
+"Lessons" = "Занятия";
+"Lesson name" = "Имя занятия";
+"Teacher name" = "Имя учителя";
+"Number class" = "Номер класса";
+"Change lessons" = "Изменение занятий";
+"Done" = "Готово";
+"Error" = "Ошибка";
+"Your data is not filled in" = "Ваши данные не заполнены";
+"Add new lesson" = "Добавить новый урок";
+"Tuesday" = "Вторник";
+"Wednesday" = "Среда";
+"Thursday" = "Четверг";
+"Friday" = "Пятница";
+"Saturday" = "Суббота";
+"Sunday" = "Воскресенье";
+"Login" = "Имя пользователя";
+"Password" = "Пороль";
+"Please enter your given" = "Пожалуйста, введите ваше имя";
+"We need to unlock your data." = "Нам нужно разблокировать ваши данные.";
+"Authentication failed" = "Сбой аутентификации";
+"Biometric authentication not available" = "Биометрическая аутентификация недоступна";
+"Enter your login" = "Введите свой логин";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+
